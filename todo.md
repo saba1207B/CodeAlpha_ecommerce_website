@@ -1,0 +1,50 @@
+# Project TODO
+
+- [x] Initialize the CodeAlpha full-stack e-commerce project
+- [x] Build the responsive contemporary storefront homepage shell
+- [x] Add gradient-led minimalist visual system with white background, pale circular shapes, and floating gradient lines
+- [x] Add responsive header, search, category navigation, wishlist, cart, and account entry points
+- [x] Add promotional hero with featured collections and category browsing
+- [x] Add product catalog with search, category filters, sorting, and empty states
+- [x] Add individual product detail view with gallery, quantity controls, wishlist, and add-to-cart actions
+- [x] Add cart drawer/page with quantity updates, calculated subtotal, shipping, total, and checkout entry point
+- [x] Add wishlist interactions with persistence and move-to-cart behavior
+- [x] Add authentication-ready account navigation states and protected-flow placeholders
+- [x] Add responsive mobile navigation and accessibility-conscious interaction states
+- [x] Add Vitest coverage for cart and wishlist behavior
+- [x] Run type checks, tests, and visual verification
+- [x] Save final checkpoint for delivery
+- [x] Implement selectable product gallery thumbnails that update the main product artwork
+- [x] Make wishlist Move to bag remove the item from the wishlist after adding it to cart
+- [x] Add auth-aware account navigation states using the existing auth hook
+- [x] Add more products across every catalog category with distinct prices, badges, ratings, and stock metadata
+- [x] Add distinct product photo-style visuals for the expanded catalog and product detail views
+- [x] Add richer homepage product sections so each catalog area has more shopping depth
+- [x] Redesign header, search, filters, cards, and cart cues toward a familiar marketplace UX inspired by large retail platforms
+- [x] Preserve the current purple-to-teal palette while improving marketplace density, comparison clarity, and mobile usability
+- [x] Update and run tests for the expanded product catalog and shopping calculations
+- [x] Capture visual verification and save an updated checkpoint
+- [x] Identify the three affected products and document broken references: Forma Everyday Tote (/manus-storage/atelier-tote_5c6be402.jpg), Orbit Mini Speaker (/manus-storage/atelier-speaker_f27aae7c.jpg), and Muse Ceramic Candle (/manus-storage/atelier-candle_fcb551c0.jpg)
+- [x] Replace the three broken product-image URLs with reliable assets: tote-v2, speaker-v2, and candle-v2
+- [x] Verify the three repaired product cards and at least one affected product detail view at desktop and mobile sizes
+- [x] Save and deliver a corrected checkpoint for the image repair
+- [x] Remove redundant individual-angle thumbnails from product detail views and keep one primary product image
+- [x] Identify and repair the three missing images in the all-products catalog section
+- [x] Verify the simplified product detail view and all-products grid on desktop and mobile
+- [x] Save and deliver a corrected checkpoint for the gallery and image repair
+- [x] Document the prior missing image state: Mosaic Silk Scarf, Quiet Tea Set, and Soft Hands Cream had no stable photo field in the catalogue entries and rendered only fallback artwork
+- [x] Replace the three catalogue image gaps with confirmed uploaded assets or deterministic fallbacks, not background-generation placeholders
+- [x] Capture explicit desktop and mobile verification for Mosaic Silk Scarf, Quiet Tea Set, and Soft Hands Cream cards
+- [x] Save and deliver a corrected catalogue-image checkpoint
+- [x] Add the requested standalone HTML entry file without breaking the Vite application entry
+- [x] Diagnose the published 404 behavior for the storefront root and nested routes
+- [x] Fix production route fallback and confirm static asset handling
+- [x] Build, test, and verify root plus nested published-style routes
+- [x] Save and deliver the corrected HTML and 404 checkpoint
+- [x] Add the requested standalone HTML entry file without breaking the Vite application entry
+- [x] Diagnose the published 404 behavior for the storefront root and nested routes
+- [x] Fix production route fallback and confirm static asset handling
+- [x] Improve Android browser performance with responsive image loading and lightweight rendering
+- [x] Reduce costly mobile animations and improve touch/scroll smoothness
+- [x] Build, test, and verify root plus nested routes at Android-sized viewports
+- [x] Save and deliver the corrected HTML, 404, and performance checkpoint
