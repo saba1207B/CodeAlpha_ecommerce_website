@@ -42,9 +42,6 @@ jobs:
       - name: Build frontend
         run: pnpm exec vite build --base=/CodeAlpha_ecommerce_website/
 
-      - name: Create SPA fallback
-        run: cp dist/public/index.html dist/public/404.html
-
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
@@ -63,5 +60,5 @@ jobs:
 
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
+        id: deployment
