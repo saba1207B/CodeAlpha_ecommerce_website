@@ -21,13 +21,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -35,20 +34,23 @@ jobs:
           version: 10.4.1
           run_install: false
 
+      - name: Verify pnpm
+        run: pnpm --version
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build frontend
         run: pnpm exec vite build --base=/CodeAlpha_ecommerce_website/
 
-      - name: Prepare SPA fallback
+      - name: Create SPA fallback
         run: cp dist/public/index.html dist/public/404.html
 
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist/public
 
